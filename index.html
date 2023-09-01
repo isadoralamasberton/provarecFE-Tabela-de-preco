@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Tabela de Preços</title>
+  <style>
+    .tabela-precos {
+      text-align: center;
+    }
+    .plano-preco {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .plano-preco h3 {
+      font-size: 24px;
+    }
+    .plano-preco p {
+      font-size: 18px;
+    }
+    .plano-preco .preco {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .btn-selecionar {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+    }
+    .btn-selecionar:hover {
+      background-color: #0056b3;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    Tabela de preços
+  </h1>
+  <div class="container mt-5">
+    <div class="row tabela-precos">
+      <div class="col-md-4">
+        <div class="plano-preco">
+          <h3>Plano Básico</h3>
+          <p>Recursos básicos</p>
+          <div class="preco">R$10/mês</div>
+          <button class="btn btn-selecionar">Selecionar</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="plano-preco">
+          <h3>Plano Padrão</h3>
+          <p>Recursos padrões</p>
+          <div class="preco">R$20/mês</div>
+          <button class="btn btn-selecionar">Selecionar</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="plano-preco">
+          <h3>Plano Premium</h3>
+          <p>Todos os recursos avançados</p>
+          <div class="preco">R$30/mês</div>
+          <button class="btn btn-selecionar">Selecionar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
